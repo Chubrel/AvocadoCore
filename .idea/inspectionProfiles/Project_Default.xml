@@ -1,0 +1,77 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ClassNameSameAsAncestorName" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CloneCallsConstructors" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CloneInNonCloneableClass" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="CloneReturnsClassType" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ExceptionNameDoesntEndWithException" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="InnerClassMayBeStatic" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignorableAnnotations">
+        <set>
+          <option value="co.aikar.commands.annotation.Subcommand" />
+          <option value="io.github.chubrel.huntmania.acf.annotation.Subcommand" />
+          <option value="org.junit.jupiter.api.Nested" />
+        </set>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="MissortedModifiers" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="m_requireAnnotationsFirst" value="true" />
+    </inspection_tool>
+    <inspection_tool class="NewClassNamingConvention" enabled="true" level="WARNING" enabled_by_default="true">
+      <extension name="AbstractClassNamingConvention" enabled="true">
+        <option name="inheritDefaultSettings" value="false" />
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="AnnotationNamingConvention" enabled="true">
+        <option name="inheritDefaultSettings" value="false" />
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="ClassNamingConvention" enabled="true">
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="EnumeratedClassNamingConvention" enabled="true">
+        <option name="inheritDefaultSettings" value="false" />
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="InterfaceNamingConvention" enabled="true">
+        <option name="inheritDefaultSettings" value="false" />
+        <option name="m_regex" value="[A-Z][A-Za-z\d]*" />
+        <option name="m_minLength" value="3" />
+        <option name="m_maxLength" value="64" />
+      </extension>
+      <extension name="JUnitAbstractTestClassNamingConvention" enabled="true" />
+      <extension name="TestSuiteNamingConvention" enabled="true" />
+      <extension name="TypeParameterNamingConvention" enabled="true" />
+    </inspection_tool>
+    <inspection_tool class="NonExceptionNameEndsWithException" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="NonPublicClone" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ObsoleteCollection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreRequiredObsoleteCollectionTypes" value="true" />
+    </inspection_tool>
+    <inspection_tool class="SameParameterValue" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="minimalUsageCount" value="2" />
+    </inspection_tool>
+    <inspection_tool class="SimplifiableAnnotation" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="SimplifiableEqualsExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="StaticCallOnSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="StaticFieldReferenceOnSubclass" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="ToArrayCallWithZeroLengthArrayArgument" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myMode" value="BY_LEVEL" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessaryConstantArrayCreationExpression" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UnnecessarySemicolon" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoreAfterEnumConstants" value="true" />
+    </inspection_tool>
+    <inspection_tool class="UnnecessarySuperConstructor" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="UseOfObsoleteDateTimeApi" enabled="true" level="WARNING" enabled_by_default="true" />
+  </profile>
+</component>
