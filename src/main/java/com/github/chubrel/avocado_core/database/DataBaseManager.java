@@ -16,15 +16,22 @@ import java.util.Properties;
 import java.util.stream.Collectors;
 
 
-public abstract class DataBaseManager {
+public class DataBaseManager {
 
-    private final DataSource dataSource;
+    private final @NotNull DataSource dataSource;
 
-    public DataBaseManager(DataSource dataSource) {
+    public DataBaseManager(@NotNull DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
-    private @NotNull DataSource initDataSource(@NotNull String type, @NotNull String name,
+    public DataBaseManager(@NotNull String type, @NotNull String name,
+                           @NotNull String user, @NotNull String password,
+                           @NotNull String host, @NotNull String port,
+                           @NotNull String additionalSettings) {
+        dataSource = dataSource(type, name, user, password, host, port, additionalSettings);
+    }
+
+    protected @NotNull DataSource dataSource(@NotNull String type, @NotNull String name,
                                                @NotNull String user, @NotNull String password,
                                                @NotNull String host, @NotNull String port,
                                                @NotNull String additionalSettings) {
