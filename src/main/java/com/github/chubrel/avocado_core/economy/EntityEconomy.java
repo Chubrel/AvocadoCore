@@ -1,7 +1,7 @@
 package com.github.chubrel.avocado_core.economy;
 
-import io.github.chubrel.avocado_core.economy.response.AccountCreationResponse;
-import io.github.chubrel.avocado_core.economy.response.AccountDeletionResponse;
+import com.github.chubrel.avocado_core.economy.response.AccountCreationResponse;
+import com.github.chubrel.avocado_core.economy.response.AccountDeletionResponse;
 import org.jetbrains.annotations.NotNull;
 
 public interface EntityEconomy<E> {

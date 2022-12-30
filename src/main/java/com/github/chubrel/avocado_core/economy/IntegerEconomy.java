@@ -1,13 +1,8 @@
 package com.github.chubrel.avocado_core.economy;
 
-import io.github.chubrel.avocado_core.economy.response.BalanceResponse;
-<<<<<<< HEAD
-import io.github.chubrel.avocado_core.economy.response.MultiResponse;
-import io.github.chubrel.avocado_core.economy.response.SimpleBalanceResponse;
-=======
-import io.github.chubrel.avocado_core.economy.response.SimpleBalanceResponse;
-import io.github.chubrel.avocado_core.economy.response.MultiResponse;
->>>>>>> 643afc224500ece96bbb0360aab4e5f6010be175
+import com.github.chubrel.avocado_core.economy.response.BalanceResponse;
+import com.github.chubrel.avocado_core.economy.response.MultiResponse;
+import com.github.chubrel.avocado_core.economy.response.SimpleBalanceResponse;
 import org.jetbrains.annotations.NotNull;
 
 public interface IntegerEconomy<E> extends SimplifiedEconomy<E, Integer> {

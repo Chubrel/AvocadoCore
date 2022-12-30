@@ -1,6 +1,7 @@
 package com.github.chubrel.avocado_core.economy;
 
-import io.github.chubrel.avocado_core.economy.response.*;
+import com.github.chubrel.avocado_core.economy.response.BalanceResponse;
+import com.github.chubrel.avocado_core.economy.response.MultiResponse;
 import org.jetbrains.annotations.NotNull;
 
 public interface SampleEconomy<E, B, D> extends NamedEconomy, BalanceEconomy<B>, EntityEconomy<E> {
