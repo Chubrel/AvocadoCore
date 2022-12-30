@@ -1,6 +1,10 @@
 package com.github.chubrel.avocado_core.economy.response;
 
 import org.jetbrains.annotations.NotNull;
+<<<<<<< HEAD
+=======
+import org.jetbrains.annotations.Nullable;
+>>>>>>> 643afc224500ece96bbb0360aab4e5f6010be175
 
 public class AccountCreationResponse extends SimpleResponse {
 
